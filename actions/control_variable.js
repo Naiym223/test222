@@ -20,12 +20,8 @@ section: "Other Stuff",
 // Action Subtitle
 //
 // This function generates the subtitle displayed next to the name.
-//---------------------------------------------------------------------
-
-subtitle: function(data) {
-	const storage = ['', 'Temp Variable', 'Server Variable', 'Global Variable'];
-	return `${storage[parseInt(data.storage)]} (${data.varName}) ${data.changeType === "1" ? "+=" : "="} ${data.value}`;
-},
+//----------------------------------------------ge = ['', 'Temp Variable', 'Server Variable', 'Global Variable'];
+	return `${storage[parseInt(data.storage)]} (${data.varName}) ${data.changeType === "1" ? "+=" : "="} ${dat
 
 //---------------------------------------------------------------------
 // Action Storage Function
